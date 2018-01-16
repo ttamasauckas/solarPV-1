@@ -76,7 +76,7 @@ title="Must contain a digit, uppercase and lowercase letter"/>
 	<option value="WY">Wyoming</option>
 </select>
 <label><b>Zip code</b></label>				
-<input type="text" pattern="[0-9]{5}" name="five digit zip code" required />
+<input type="text" placeholder="zip code" pattern="[0-9]{5}" name="five digit zip code" required />
 <label><b>email</b></label>
 <input type="text" placeholder="Email" name="email" required />
 <label><b>Phone Number</b></label>
@@ -93,55 +93,55 @@ title="Must contain a digit, uppercase and lowercase letter"/>
 </form>
 
  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+Â  width: 100%;
+Â  padding: 15px;
+Â  margin: 5px 0 22px 0;
+Â  display: inline-block;
+Â  border: none;
+Â  background: #f1f1f1;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+Â  background-color: #ddd;
+Â  outline: none;
 }
 
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+Â  border: 1px solid #f1f1f1;
+Â  margin-bottom: 25px;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+Â  background-color: #4CAF50;
+Â  color: white;
+Â  padding: 14px 20px;
+Â  margin: 8px 0;
+Â  border: none;
+Â  cursor: pointer;
+Â  width: 100%;
+Â  opacity: 0.9;
 }
 
 button:hover {
-  opacity:1;
+Â  opacity:1;
 }
 
 .cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+Â  padding: 14px 20px;
+Â  background-color: #f44336;
 }
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+Â  float: left;
+Â  width: 50%;
 }
 
 .container {
-  padding: 16px;
+Â  padding: 16px;
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+Â  content: "";
+Â  clear: both;
+Â  display: table;
 }
 
