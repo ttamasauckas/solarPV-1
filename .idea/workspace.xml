@@ -27,18 +27,6 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="registration-old.html" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/solarPV/public_html/registration-old.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="714">
-                    <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="120" selection-end-column="66" />
-                    <folding>
-                      <element signature="n#select#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
           </leaf>
         </state>
       </content>
@@ -46,20 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solarPV/public_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="87" column="14" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="87" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solarPV/public_html/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
+            <state relative-caret-position="850">
               <caret line="120" column="41" lean-forward="true" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
               <folding>
                 <element signature="n#select#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -94,11 +82,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/solarPV/public_html/form.html" />
-        <option value="$PROJECT_DIR$/solarPV/public_html/index.html" />
         <option value="$PROJECT_DIR$/solarPV/public_html/registration.html" />
         <option value="$PROJECT_DIR$/solarPV/public_html/test.html" />
         <option value="$PROJECT_DIR$/solarPV/public_html/register.html" />
         <option value="$PROJECT_DIR$/solarPV/public_html/styles.css" />
+        <option value="$PROJECT_DIR$/solarPV/public_html/index.html" />
       </list>
     </option>
   </component>
@@ -194,12 +182,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516075613921</updated>
-      <workItem from="1516075616087" duration="3367000" />
+      <workItem from="1516075616087" duration="3583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3367000" />
+    <option name="totallyTimeSpent" value="3583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -249,16 +237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="120" selection-end-column="66" />
-          <folding>
-            <element signature="n#select#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solarPV/public_html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="87" column="14" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="87" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -281,11 +259,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solarPV/public_html/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
+        <state relative-caret-position="850">
           <caret line="120" column="41" lean-forward="true" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
           <folding>
             <element signature="n#select#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solarPV/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
