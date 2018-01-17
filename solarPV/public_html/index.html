@@ -10,13 +10,22 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="rotate.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                start("#rotator");
+            })
+        </script>
     </head>
+
+
+
     <body>
       <div class="page">
         <div class="heading">
             <div class="left">
-                SolarPV
-                Research & Development
+                <img src="logo.svg" alt="SolarPV Logo">
             </div>
             <div class="right">
                 <a href='#'>About Us</a>
@@ -67,10 +76,26 @@ and open the template in the editor.
             
         <div class='content'>
                 <h1>Feature contents</h1>
+                <video width="250" controls><source src="howsolarworks.mp4" type="video/mp4"></video><br>
+                <div id="rotator">
+                    <img src="solar1.jpg" width="250">
+                    <img src="solar2.jpg" width="250">
+                    <img src="solar3.jpg" width="250">
+                    <img src="solar4.jpg" width="250">
+                </div>
+
+                <video width="250" controls><source src="howsolarworks.mp4" type="video/mp4"></video>
+
             </div>
            
-        <div class='content'>
+            <div class='content'>
                 <h1>News & Events</h1>
+                PhotoVoltaic Technical Conference to take place in Marseille, France from 26 to 28 April 2017<br><br>
+                Trump is next US president<br><br>
+                Syrian forces recapture Aleppo<br><br>
+                Senate votes on SCOTUS nominee<br><br>
+
+
                 
             </div>
         </div>

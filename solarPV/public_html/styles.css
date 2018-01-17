@@ -26,6 +26,10 @@ body {
     background-color: lightgray;
 }
 
+.page {
+    width: 750px;
+}
+
 form {
     width: inherit;
     display: block;
@@ -65,6 +69,14 @@ a:active {
     float: left;
 }
 
+.heading .left img {
+    width: 250px;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
 .heading .right{
     float: right;
     display: inline;
@@ -78,7 +90,7 @@ a:active {
     padding-right: 20px;
 }
 
-
+#rotator img { position: absolute; }
 
 .navbar {
    text-align: center;
@@ -92,6 +104,10 @@ a:active {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+form {
+    line-height: 30px;
 }
 
 .navbar li {
@@ -123,6 +139,14 @@ a:active {
     padding: 0px;
 }
 
+.content:last-child {
+    float:right;
+    width: 33.33%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
 .content h1 {
    font-size: 15px;
    text-align: center;
@@ -139,6 +163,12 @@ a:active {
    margin-right: auto;
    margin-top: 4px;
 }
+
+.content video {
+    float: bottom;
+    display: block;
+}
+
 
 .content table th {
    border-right: 1px solid black;
@@ -176,6 +206,11 @@ a:active {
    padding-left: 8px;
 }
 
+hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+}
+
 .footer table th:last-child {
     border-right: 0;
 }
@@ -196,10 +231,7 @@ input[type=text]:focus, input[type=password]:focus {
       outline: none;
 }
 
-hr {
-      border: 1px solid #f1f1f1;
-      margin-bottom: 25px;
-}
+
 
 button {
       background-color: #4CAF50;
