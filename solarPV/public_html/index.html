@@ -10,12 +10,12 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" type="text/css" rel="stylesheet" />
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-        <script type="text/javascript" src="rotate.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.js"></script>
+        <script type="text/javascript" src="js/rotate.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 start("#rotator");
-            })
+            });
         </script>
     </head>
 
@@ -25,7 +25,7 @@ and open the template in the editor.
       <div class="page">
         <div class="heading">
             <div class="left">
-                <img src="logo.svg" alt="SolarPV Logo">
+                <img src="images/logo.svg" alt="SolarPV Logo">
             </div>
             <div class="right">
                 <a href='#'>About Us</a>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 
                 <table class='login'>
                     <th><a href='register.html'>Register</a></th>
-                    <th><a href='#'>Login</a></th>
+                    <th><a href='login.html'>Login</a></th>
                 </table>
                             
                 
@@ -76,15 +76,15 @@ and open the template in the editor.
             
         <div class='content'>
                 <h1>Feature contents</h1>
-                <video width="250" controls><source src="howsolarworks.mp4" type="video/mp4"></video><br>
+                <video width="250" controls><source src="media/howsolarworks.mp4" type="video/mp4"></video><br>
                 <div id="rotator">
-                    <img src="solar1.jpg" width="250">
-                    <img src="solar2.jpg" width="250">
-                    <img src="solar3.jpg" width="250">
-                    <img src="solar4.jpg" width="250">
+                    <img src="images/solar1.jpg" width="250" alt="solar1">
+                    <img src="images/solar2.jpg" width="250" alt="solar2">
+                    <img src="images/solar3.jpg" width="250" alt="solar3">
+                    <img src="images/solar4.jpg" width="250" alt="solar4">
                 </div>
 
-                <video width="250" controls><source src="howsolarworks.mp4" type="video/mp4"></video>
+               
 
             </div>
            
@@ -104,10 +104,12 @@ and open the template in the editor.
             1234 E Solar Ave, Mesa, Arizona, 85215 <br>
             <span>&COPY;2018 All Rights Reserved</span>
             <table>
+                <tr>
                 <th><a href='#'>Site Map</a></th>
                 <th><a href='#'>Terms & Conditions</a></th>
                 <th><a href="#">Privacy Policy</a></th>
                 <th><a href='#'>About Us</a></th>
+                </tr>
             </table>
             
         </div>

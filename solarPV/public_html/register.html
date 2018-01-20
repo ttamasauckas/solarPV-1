@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Register new account</title>
     <link href="styles.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+
 </head>
+
 <body>
 
 
 <div class="heading">
     <div class="left">
-        <img src="logo.svg" alt="SolarPV Logo">
+        <img src="images/logo.svg" alt="SolarPV Logo">
     </div>
     <div class="right">
         <a href='#'>About Us</a>
@@ -18,7 +24,7 @@
 
     </div>
 </div>
-    </div>
+    
 
     <nav>
         <div class="navbar">
@@ -40,25 +46,33 @@
 
         <!--Start Registration Form  -->
 
-        <form>
+        <form id="registrationForm">
+            
             <label><b>UserName</b></label>
-            <input type="text" placeholder="Enter UserName" name="Username" required maxlength="8"/><br>
+            <input type="text" placeholder="Enter UserName" name="Username" required/><br>
+            
             <label><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}"
-                   title="Must contain a digit, uppercase and lowercase letter"/><br>
+            <input type="password" placeholder="Enter Password" name="psw"/><br>
+            
             <label><b>First Name</b></label>
-            <input type="text" placeholder="Enter First Name" name= "first name"/><br>
+            <input type="text" placeholder="Enter First Name" name= "firstName"/><br>
+            
             <label><b>Middle Name</b></label>
-            <input type="text" placeholder="Enter Middle Name" name="Middle name"/><br>
+            <input type="text" placeholder="Enter Middle Name" name="middleName"/><br>
+            
             <label><b>Middle Name</b></label>
-            <input type="text" placeholder="Enter Last Name" name= "last name" required/><br>
+            <input type="text" placeholder="Enter Last Name" name= "lastName" required/><br>
+            
             <label><b>Gender</b></label>
-            <input type="radio" placeholder="Gender" name= "gender" value="Male" ID="gender"required/>Male
-            <input type="radio" placeholder="Gender" name= "gender" value="Female" ID="gender2"required/>Female<br>
+            <input type="radio" name= "gender" value="Male" ID="gender" required/>Male
+            <input type="radio" name= "gender" value="Female" ID="gender2" required/>Female<br>
+            
             <label><b>Street Address</b></label>
             <input type="text" Placeholder="Street address" name="street address" required/><br>
+            
             <label><b>City</b></label>
             <input type="text" placeholder="City" name="city" required/><br>
+            
             <label><b>State</b></label>
             <select name="state">
                 <option value="AL">Alabama</option>
@@ -113,23 +127,26 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
             </select><br>
+            
             <label><b>Zip code</b></label>
-            <input type="text" placeholder="zip code" pattern="[0-9]{5}" name="five digit zip code" required /><br>
+            <input type="text" placeholder="zip code" name="zipcode" required /><br>
+            
             <label><b>email</b></label>
             <input type="text" placeholder="Email" name="email" required /><br>
+            
             <label><b>Phone Number</b></label>
             <input type="text" placeholder="Phone" name="Phone" required/><br>
+            
             <label><b>Company</b></label>
-            <input type="text" placeholder="Companty" name="company" required/><br>
+            <input type="text" placeholder="Company" name="company" required/><br>
 
 
-            <div class="clearfix">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign Up</button>
+            <div>
+                <button type="button">Cancel</button>
+                <button type="submit">Sign Up</button>
             </div>
         </form>
-
-
+        
     </div>
 
 
@@ -138,10 +155,12 @@
         1234 E Solar Ave, Mesa, Arizona, 85215 <br>
         <span>&COPY;2018 All Rights Reserved</span>
         <table>
+            <tr>
             <th><a href='#'>Site Map</a></th>
             <th><a href='#'>Terms & Conditions</a></th>
             <th><a href="#">Privacy Policy</a></th>
             <th><a href='#'>About Us</a></th>
+            </tr>
         </table>
 
     </div>
